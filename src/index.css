@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .custom-input {
+    @apply border-[1px] border-slate-600 px-2 py-1 w-full focus:outline-none focus:border-red-600
+  }
+}
